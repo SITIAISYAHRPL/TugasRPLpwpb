@@ -46,10 +46,10 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `name`, `email`, `image`, `password`, `role_id`, `is_active`, `date_created`) VALUES
 (6, 'Doddy Ferdiansyah', 'doddy@gmail.com', 'profile.jpg', '$2y$10$FhGzXwwTWLN/yonJpDLR0.nKoeWlKWBoRG9bsk0jOAgbJ007XzeFO', 2, 1, 1552285263),
 (11, 'Sandhika Galih', 'sandhikagalih@gmail.com', 'default.jpg', '$2y$10$0QYEK1pB2L.Rdo.ZQsJO5eeTSpdzT7PvHaEwsuEyGSs0J1Qf5BoSq', 2, 1, 1553151354),
-(12, 'sinta armelia', 'sintadwiarmelia11rpl2@gmail.com', 'default1.jpg', '$2y$10$f0QiHEmWQ0DzcKLlt4v5/ekIeLdfhmB/faZ.X9aT3e2rO1Opm8haq', 1, 1, 1567646258),
-(16, 'Maulana Sidiq', 'sidiq@gmail.com', 'default.jpg', '$2y$10$/dQiw.2vgOeDjhBq/0LYZumVo4gyicUw2Ej9rGoPHhHrrqaDpjUFi', 2, 1, 1568262275),
-(17, 'sinta', 'sinta@gmail.com', 'default.jpg', '$2y$10$7RGgjWSuNPrvGxTLPoxMdekqNKJT6gJVZX25r9sQFbGgsVBsiDCwG', 2, 0, 1568287759),
-(22, 'Sinta Armelia', 'sintaarmelia27@gmail.com', 'default.jpg', '$2y$10$bBzAtkByk6Tgx9Q8VhTeqOBGTPYUhFaA6d1qHkvBIjBvoe5H67GC.', 2, 1, 1569459945);
+(12, 'Siti Aisyah', 'aisyahriva@gmail.com', 'default1.jpg', '$2y$10$f0QiHEmWQ0DzcKLlt4v5/ekIeLdfhmB/faZ.X9aT3e2rO1Opm8haq', 1, 1, 1567646258),
+(16, 'Riva edm', 'rivasyah@gmail.com', 'default.jpg', '$2y$10$/dQiw.2vgOeDjhBq/0LYZumVo4gyicUw2Ej9rGoPHhHrrqaDpjUFi', 2, 1, 1568262275),
+(17, 'aisyah', 'aisyah217@gmail.com', 'default.jpg', '$2y$10$7RGgjWSuNPrvGxTLPoxMdekqNKJT6gJVZX25r9sQFbGgsVBsiDCwG', 2, 0, 1568287759),
+(22, 'aisyahRiva', 'rivaedm@gmail.com', 'default.jpg', '$2y$10$bBzAtkByk6Tgx9Q8VhTeqOBGTPYUhFaA6d1qHkvBIjBvoe5H67GC.', 2, 1, 1569459945);
 
 -- --------------------------------------------------------
 
@@ -158,11 +158,11 @@ CREATE TABLE `user_token` (
 --
 
 INSERT INTO `user_token` (`id`, `email`, `token`, `date_created`) VALUES
-(3, 'sintaarmelia27@gmail.com', 'tOa79RPqjOm8IDcxsmRcWEhJO5bGC971PLStqQPzE88=', 1569464971),
-(4, 'sintaarmelia27@gmail.com', 'p2hqwXcaqezCCVUJT0Nhxm+mNAQ+4uwjBN+gxKXQCGM=', 1569465793),
-(5, 'sintaarmelia27@gmail.com', 'eYGJQArSgC7l3aWe0Bu7gM54SNHPAccQzy2h0ZPBXRc=', 1569465968),
-(6, 'sintaarmelia27@gmail.com', 'hO0vuhMViYGkMmZgvNXFEG3WKOzsNlzCyQ5FjtXJmM0=', 1569466042),
-(7, 'sintaarmelia27@gmail.com', 'aNR3jPdZ6AuPejOu2RO2FugJJ7uFHo+Cz3UNGaaLZg0=', 1569471027);
+(3, 'rivaedm@gmail.com', 'tOa79RPqjOm8IDcxsmRcWEhJO5bGC971PLStqQPzE88=', 1569464971),
+(4, 'rivaedm@gmail.com', 'p2hqwXcaqezCCVUJT0Nhxm+mNAQ+4uwjBN+gxKXQCGM=', 1569465793),
+(5, 'rivaedm@gmail.com', 'eYGJQArSgC7l3aWe0Bu7gM54SNHPAccQzy2h0ZPBXRc=', 1569465968),
+(6, 'rivaedm@gmail.com', 'hO0vuhMViYGkMmZgvNXFEG3WKOzsNlzCyQ5FjtXJmM0=', 1569466042),
+(7, 'rivaedm@gmail.com', 'aNR3jPdZ6AuPejOu2RO2FugJJ7uFHo+Cz3UNGaaLZg0=', 1569471027);
 
 --
 -- Indexes for dumped tables
